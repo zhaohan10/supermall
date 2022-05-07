@@ -1,0 +1,9 @@
+/** 全局样式 */
+// 如果需要覆盖更多样式变量请查看文档
+$--ele-font-path: '~ele-admin/es/style/fonts';
+// 如果不需要切换主题固定为夜间主题使用这个
+//@import "~ele-admin/es/style/themes/dark.scss";
+// 需要在线切换主题使用这个
+@import '~ele-admin/es/style/themes/dynamic.scss';
+// 全局引入样式
+@import '~ele-admin/es/style/index.scss';
